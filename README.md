@@ -16,6 +16,8 @@ add hive.io blockchain post feed to any website.
 `hiveuser` is required
 
 `frontend` is optional and defaults to https://personal.community/
+any frontend that uses the domain/@hiveuser is valid, i.e. peakd, hive.blog, leofinance.io, ecency
 
 `apinode` is optional and defaults to https://api.deathwing.me/
+when manually setting apinode or frontend, omit the `https://` as the script will add that automagically.
  
