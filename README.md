@@ -22,6 +22,9 @@ any frontend that uses the domain/@hiveuser is valid, i.e. peakd, hive.blog, leo
 
 `apinode` is optional and defaults to https://api.deathwing.me/
 
+A list of public API nodes can be found [here](https://developers.hive.io/quickstart/hive_full_nodes.html)
+
+
 
 
 when manually setting `apinode` or `frontend`, omit the `https://` as the script will add that automagically.
