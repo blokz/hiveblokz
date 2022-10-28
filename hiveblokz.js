@@ -69,7 +69,7 @@ var fetchPosts = function () {
             var recent1date = element.created.slice(0, 10);
             post1 = parseMD(element.body);
             post1 = post1.replace(new RegExp("<img ", 'g'), "<img width='80%' ");
-            div.innerHTML += '<article><h1>' + element.title + "</h1><small>" + recent1date + "</small><div id='postbody'>" + post1 + "</div></article><img src='https://blokz.github.io/hiveblokz/seperator.png' width='99%' />";
+            div.innerHTML += '<article><h1>' + element.title + "</h1><small>" + recent1date + "</small><div id='postbody'>" + post1 + "</div></article><hr />";
         });
         // view more on peakd
         div.innerHTML += "<br /><div style='display: block; padding: 1em; margin: 1em;  text-align: left'>View More on <a href='"+frontend+hiveuser+"' target='_blank'>"+frontend+hiveuser+"</a></div>";
