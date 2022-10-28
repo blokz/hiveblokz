@@ -14,6 +14,8 @@ add hive.io blockchain post feed to any website.
 
 # options
 `hiveuser` is required
+
 `frontend` is optional and defaults to https://personal.community/
+
 `apinode` is optional and defaults to https://api.deathwing.me/
  
