@@ -69,10 +69,10 @@ var fetchPosts = function () {
             var recent1date = element.created.slice(0, 10);
             post1 = parseMD(element.body);
             post1 = post1.replace(new RegExp("<img ", 'g'), "<img width='80%' ");
-            div.innerHTML += '<div id="post"><div id="posthead">' + element.title + "</div><small>" + recent1date + "</small><div id='postbody'>" + post1 + "</div></div><img src='https://blokz.github.io/hiveblokz/images/seperator.png' width='99%' />";
+            div.innerHTML += '<div id="post"><div id="posthead">' + element.title + "</div><small>" + recent1date + "</small><div id='postbody'>" + post1 + "</div></div><img src='https://blokz.github.io/hiveblokz/seperator.png' width='99%' />";
         });
         // view more on peakd
-        div.innerHTML += "<br /><div style='display: block; padding: 1em; margin: 1em;  text-align: left'>View More on <a href='"+frontend+hiveuser+"' target='_blank'>http://personal.community/@sn0n</a></div>";
+        div.innerHTML += "<br /><div style='display: block; padding: 1em; margin: 1em;  text-align: left'>View More on <a href='"+frontend+hiveuser+"' target='_blank'>"+frontend+hiveuser+"</a></div>";
     });
 }
 fetchPosts();
