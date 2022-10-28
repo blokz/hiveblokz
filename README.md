@@ -1,5 +1,5 @@
 # hiveblokz
-add hive.io blockchain post feed to any website.
+add a hive.io blockchain users most recent posts to any website.
 
 # usage:
 ```
